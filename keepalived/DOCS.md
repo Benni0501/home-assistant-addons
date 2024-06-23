@@ -1,13 +1,17 @@
 # Keepalived Addon
 
 ![Supports armv7 Architecture][armv7-shield]
+![Supports amd64 Architecture][amd64-shield]
+![Supports aarch64 Architecture][aarch64-shield]
+
 
 This is a simple addon for using Keepalived with Home Assistant.
 <br>
 It is a personal project for me so i take no responsibility when it not works on any other machine.
 
-[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 
 ## Configuration
 
