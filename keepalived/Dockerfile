@@ -1,4 +1,4 @@
-FROM benni0501/keepalived:latest
+FROM benni0501/keepalived:2.3.1
 
 ARG BUILD_ARCH
 ARG BUILD_VERSION

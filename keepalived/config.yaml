@@ -1,11 +1,13 @@
 name: "Keepalived"
 description: "My own keepalived addon"
-version: "1.0.9"
+version: "1.1.0"
 slug: "keepalived"
 init: false
 image: "ghcr.io/benni0501/{arch}-keepalived"
 arch:
   - armv7
+  - aarch64
+  - amd64
 startup: "application"
 host_network: true
 url: "https://www.keepalived.org/"
