@@ -1,6 +1,5 @@
 # Keepalived Addon
 
-![Supports armhf Architecture][armhf-shield]
 ![Supports armv7 Architecture][armv7-shield]
 
 This is a simple addon for using Keepalived with Home Assistant.

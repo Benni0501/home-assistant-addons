@@ -6,7 +6,6 @@ init: false
 image: "ghcr.io/benni0501/{arch}-keepalived"
 arch:
   - armv7
-  - armhf
 startup: "application"
 host_network: true
 url: "https://www.keepalived.org/"
