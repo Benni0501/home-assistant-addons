@@ -1,0 +1,28 @@
+name: "Keepalived"
+description: "My own keepalived addon"
+version: "1.0.9"
+slug: "keepalived"
+init: false
+image: "ghcr.io/benni0501/{arch}-keepalived"
+arch:
+  - armv7
+  - armhf
+startup: "application"
+host_network: true
+url: "https://www.keepalived.org/"
+privileged:
+  - "NET_ADMIN"
+options: 
+  interface: "eth0"
+  password: "changeme"
+  router_id: "28"
+  priority: "255"
+  virtual_ips: "10.0.0.4"
+  state: "MASTER"
+schema:
+  interface: "str"
+  password: "str"
+  router_id: "str"
+  priority: "str"
+  virtual_ips: "str"
+  state: "str"
