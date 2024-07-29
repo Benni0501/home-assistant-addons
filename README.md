@@ -10,7 +10,7 @@ This repository contains the following add-ons
 
 ### [Keppalived](./keepalived)
 
-![Supports armv7 Architecture][armv7-shield]
+![Supports armv7 Architecture][armv7-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports aarch64 Architecture][aarch64-shield]
 
 A changed variant of [this](https://hub.docker.com/r/ednxzu/keepalived) image for Home Assistant. The Dockerfile is a changed variant from [this](https://github.com/pschmitt/home-assistant-addons/blob/main/keepalived/Dockerfile) Dockerfile.
 
