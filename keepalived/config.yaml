@@ -1,8 +1,9 @@
 name: "Keepalived"
 description: "My own keepalived addon"
-version: "1.1.0"
+version: "1.2.0"
 slug: "keepalived"
 init: false
+startup: services
 image: "ghcr.io/benni0501/{arch}-keepalived"
 arch:
   - armv7
