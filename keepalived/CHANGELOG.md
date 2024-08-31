@@ -1,3 +1,7 @@
+## 1.2.1
+
+- changed startup type from services to initialize
+
 ## 1.2.0
 
 - changed startup type from application to services
