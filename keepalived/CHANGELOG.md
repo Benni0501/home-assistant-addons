@@ -1,3 +1,7 @@
+## 1.2.1
+
+- changed keepalived version to 2.3.2
+
 ## 1.2.0
 
 - changed startup type from application to services
