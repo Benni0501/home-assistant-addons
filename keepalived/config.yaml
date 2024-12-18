@@ -3,7 +3,7 @@ description: "My own keepalived addon"
 version: "1.2.1"
 slug: "keepalived"
 init: false
-startup: services
+startup: initialize
 image: "ghcr.io/benni0501/{arch}-keepalived"
 arch:
   - armv7
