@@ -1,3 +1,7 @@
+## 1.2.2"
+
+- changed version for force update
+
 ## 1.2.1
 
 - changed keepalived version to 2.3.2

@@ -1,6 +1,6 @@
 name: "Keepalived"
 description: "My own keepalived addon"
-version: "1.2.1"
+version: "1.2.2"
 slug: "keepalived"
 init: false
 startup: initialize
