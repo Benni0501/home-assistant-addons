@@ -23,6 +23,7 @@ router_id: "51"
 priority: "255"
 virtual_ips: 10.0.0.68
 state: MASTER
+addon: "3983e8d8_letsdnsocloud"
 ```
 
 ### Option `interface`
@@ -42,3 +43,6 @@ Virtual IP adress
 
 ### Option `state`
 Initial state of the keepalived instance
+
+### Option `addon`
+Addon which should be checked for

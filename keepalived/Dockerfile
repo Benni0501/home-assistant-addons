@@ -11,7 +11,9 @@ ENV LANG C.UTF-8
 RUN apk add --no-cache jq
 
 # Copy data for add-on
-COPY run.sh /
+COPY run.sh /run.sh
+COPY check_addon.sh /check_addon.sh
 RUN chmod a+x /run.sh
+RUN chmod a+x /check_addon.sh
 
 ENTRYPOINT [ "/run.sh" ]

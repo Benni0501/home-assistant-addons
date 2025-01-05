@@ -1,6 +1,6 @@
 name: "Keepalived"
 description: "My own keepalived addon"
-version: "1.2.2"
+version: "1.3.0"
 slug: "keepalived"
 init: false
 startup: initialize
@@ -10,6 +10,7 @@ arch:
   - aarch64
   - amd64
 host_network: true
+hassio_api: true
 url: "https://www.keepalived.org/"
 privileged:
   - "NET_ADMIN"
@@ -20,6 +21,7 @@ options:
   priority: "255"
   virtual_ips: "10.0.0.4"
   state: "MASTER"
+  addon: null
 schema:
   interface: "str"
   password: "str"
@@ -27,3 +29,4 @@ schema:
   priority: "str"
   virtual_ips: "str"
   state: "str"
+  addon: "str?"

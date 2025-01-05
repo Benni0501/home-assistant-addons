@@ -16,6 +16,7 @@ config_get() {
   export ROUTER_ID="$(config_get router_id)"
   export VIRTUAL_IPS="$(config_get virtual_ips)"
   export STATE="$(config_get state)"
+  export ADDON="$(config_get addon)"
 }
 
 # Run upstream entrypoint

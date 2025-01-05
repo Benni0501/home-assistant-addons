@@ -1,4 +1,8 @@
-## 1.2.2"
+## 1.3.0
+
+- added check script for checking if external addon runs
+
+## 1.2.2
 
 - changed version for force update
 
