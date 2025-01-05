@@ -21,7 +21,6 @@ options:
   priority: "255"
   virtual_ips: "10.0.0.4"
   state: "MASTER"
-  addon: null
 schema:
   interface: "str"
   password: "str"
