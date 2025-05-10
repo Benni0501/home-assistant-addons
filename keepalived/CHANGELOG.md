@@ -1,3 +1,7 @@
+## 1.3.5
+
+- finally fixed notify
+
 ## 1.3.4
 
 - finally fixed notify

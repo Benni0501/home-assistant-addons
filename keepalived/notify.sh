@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 ENDSTATE=$3
 NAME=$2
