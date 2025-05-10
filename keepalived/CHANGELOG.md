@@ -1,3 +1,7 @@
+## 1.3.2
+
+- update keepalived 2.3.3
+
 ## 1.3.1
 
 - made addon optional

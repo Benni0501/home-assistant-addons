@@ -13,6 +13,8 @@ RUN apk add --no-cache jq
 # Copy data for add-on
 COPY run.sh /run.sh
 COPY check_addon.sh /check_addon.sh
+COPY notify.sh /notify.sh
+RUN chmod a+x /notify.sh
 RUN chmod a+x /run.sh
 RUN chmod a+x /check_addon.sh
 
