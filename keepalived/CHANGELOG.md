@@ -1,3 +1,7 @@
+## 1.3.9
+
+- removed checkaddon.sh
+
 ## 1.3.8
 
 - update keepalived
