@@ -1,3 +1,7 @@
+## 1.3.8
+
+- update keepalived
+
 ## 1.3.7
 
 - changed api role
