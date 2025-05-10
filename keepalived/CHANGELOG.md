@@ -1,3 +1,7 @@
+## 1.3.6
+
+- update keepalived
+
 ## 1.3.5
 
 - finally fixed notify
