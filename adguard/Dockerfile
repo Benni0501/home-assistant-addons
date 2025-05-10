@@ -2,7 +2,7 @@ ARG BUILD_FROM=ghcr.io/hassio-addons/base:17.2.5
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
-ARG BUILD_ARCH=amd64
+ARG BUILD_ARCH=armv7
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
