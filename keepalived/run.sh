@@ -17,6 +17,7 @@ config_get() {
   export VIRTUAL_IPS="$(config_get virtual_ips)"
   export STATE="$(config_get state)"
   export ADDON="$(config_get addon)"
+  export NOTIFY="notify.sh"
 }
 
 # Run upstream entrypoint
