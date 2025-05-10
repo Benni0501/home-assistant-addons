@@ -31,6 +31,8 @@ RUN \
 
  # Copy root filesystem
 COPY rootfs /
+RUN chmod +x /etc/s6-overlay/s6-rc.d/init-adguard/run
+RUN chmod +x /etc/s6-overlay/s6-rc.d/init-nginx/run
 
 # Health check
 HEALTHCHECK CMD curl --fail http://127.0.0.1:45158 || exit 1
