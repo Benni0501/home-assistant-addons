@@ -1,7 +1,6 @@
 dns:
   port: 53
-  bootstrap_dns: 
-  - '1.1.1.1:53'
+  bootstrap_dns: '1.1.1.1:53'
   use_private_ptr_resolvers: false
   bind_hosts:
     - '0.0.0.0'
