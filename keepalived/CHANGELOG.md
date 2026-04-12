@@ -1,3 +1,7 @@
+## 1.3.10
+
+- removed deprecated armv7
+
 ## 1.3.9
 
 - removed checkaddon.sh
